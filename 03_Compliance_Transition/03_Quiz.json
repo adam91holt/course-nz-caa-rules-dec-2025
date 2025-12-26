@@ -1,131 +1,58 @@
 {
-  "moduleId": "module-03",
-  "title": "Module 3 Quiz: Compliance and Transition",
-  "passingScore": 70,
+  "title": "Quiz: Compliance and Transition",
+  "type": "quiz",
   "questions": [
     {
-      "id": "q3-1",
-      "type": "multiple-choice",
+      "id": "q1",
+      "questionNumber": 1,
+      "type": "MULTIPLE_CHOICE",
       "question": "What is the primary purpose of Advisory Circular AC101-1?",
-      "options": [
-        {
-          "id": "a",
-          "text": "To establish mandatory regulations that operators must follow",
-          "correct": false,
-          "feedback": "AC101-1 is not mandatory. It is guidance document that represents the CAA's official recommendations for compliant operations, not binding regulations."
-        },
-        {
-          "id": "b",
-          "text": "To provide practical guidance for RPAS operators under 25kg during the regulatory transition",
-          "correct": true,
-          "feedback": "Correct! AC101-1 is specifically designed to provide practical, CAA-endorsed guidance for operators transitioning to the December 2025 framework, focusing on compliance pathways and best practices."
-        },
-        {
-          "id": "c",
-          "text": "To replace Part 101 and Part 102 regulatory requirements",
-          "correct": false,
-          "feedback": "AC101-1 does not replace regulatory requirements. It provides guidance on how to interpret and apply existing regulatory requirements in practical operational contexts."
-        },
-        {
-          "id": "d",
-          "text": "To outline penalties for operators who do not comply with new rules",
-          "correct": false,
-          "feedback": "AC101-1 is a guidance document focused on helping operators comply. Enforcement penalties are covered in the Civil Aviation Rules themselves, not in advisory circulars."
-        }
-      ]
+      "answers": [
+        { "id": "a", "text": "To establish mandatory regulations that operators must follow", "correct": false },
+        { "id": "b", "text": "To provide practical guidance for RPAS operators under 25kg during the regulatory transition", "correct": true },
+        { "id": "c", "text": "To replace Part 101 and Part 102 regulatory requirements", "correct": false },
+        { "id": "d", "text": "To outline penalties for operators who do not comply with new rules", "correct": false }
+      ],
+      "feedback": "AC101-1 is specifically designed to provide practical, CAA-endorsed guidance for operators transitioning to the December 2025 framework, focusing on compliance pathways and best practices."
     },
     {
-      "id": "q3-2",
-      "type": "multiple-choice",
+      "id": "q2",
+      "questionNumber": 2,
+      "type": "MULTIPLE_CHOICE",
       "question": "What is the critical deadline for commercial operators to submit updated Part 102 certification applications?",
-      "options": [
-        {
-          "id": "a",
-          "text": "31 December 2025",
-          "correct": false,
-          "feedback": "31 December 2025 marks the end of Phase 1 (Foundation), not the application deadline. Commercial operators have longer to prepare their applications."
-        },
-        {
-          "id": "b",
-          "text": "28 February 2026",
-          "correct": false,
-          "feedback": "28 February 2026 marks the end of Phase 1 and beginning of Phase 2, but the critical application deadline is later in Phase 2."
-        },
-        {
-          "id": "c",
-          "text": "30 April 2026",
-          "correct": true,
-          "feedback": "Correct! 30 April 2026 is the critical deadline for commercial operators to submit updated Part 102 certification applications during Phase 2. Missing this deadline could delay authorization."
-        },
-        {
-          "id": "d",
-          "text": "30 June 2026",
-          "correct": false,
-          "feedback": "While 30 June 2026 is near the end of Phase 2, the actual application deadline is 30 April 2026, providing time for CAA processing before Phase 3 full compliance begins."
-        }
-      ]
+      "answers": [
+        { "id": "a", "text": "31 December 2025", "correct": false },
+        { "id": "b", "text": "28 February 2026", "correct": false },
+        { "id": "c", "text": "30 April 2026", "correct": true },
+        { "id": "d", "text": "30 June 2026", "correct": false }
+      ],
+      "feedback": "30 April 2026 is the critical deadline for commercial operators to submit updated Part 102 certification applications during Phase 2. Missing this deadline could delay authorization."
     },
     {
-      "id": "q3-3",
-      "type": "multiple-choice",
+      "id": "q3",
+      "questionNumber": 3,
+      "type": "MULTIPLE_CHOICE",
       "question": "During Phase 1 (Foundation), what is the CAA's primary approach to enforcement?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Strict penalties for any non-compliance, regardless of circumstances",
-          "correct": false,
-          "feedback": "Phase 1 takes a supportive, educational approach. The CAA focuses on helping operators understand and prepare for compliance rather than applying penalties."
-        },
-        {
-          "id": "b",
-          "text": "Education and support, with no enforcement action for good-faith compliance efforts",
-          "correct": true,
-          "feedback": "Correct! During Phase 1, the CAA prioritizes education and stakeholder support. Operators making good-faith efforts to understand and implement changes are not subject to enforcement action."
-        },
-        {
-          "id": "c",
-          "text": "Selective enforcement only against large commercial operators",
-          "correct": false,
-          "feedback": "Enforcement approach during Phase 1 applies across all operator categories. Phase 1 is fundamentally different—it's the education phase, not an enforcement phase for any category."
-        },
-        {
-          "id": "d",
-          "text": "No oversight at all—operators can do whatever they want during Phase 1",
-          "correct": false,
-          "feedback": "While Phase 1 is educational rather than enforcement-focused, compliance expectations still apply. The difference is the CAA's approach emphasizes support and understanding."
-        }
-      ]
+      "answers": [
+        { "id": "a", "text": "Strict penalties for any non-compliance, regardless of circumstances", "correct": false },
+        { "id": "b", "text": "Education and support, with no enforcement action for good-faith compliance efforts", "correct": true },
+        { "id": "c", "text": "Selective enforcement only against large commercial operators", "correct": false },
+        { "id": "d", "text": "No oversight at all—operators can do whatever they want during Phase 1", "correct": false }
+      ],
+      "feedback": "During Phase 1, the CAA prioritizes education and stakeholder support. Operators making good-faith efforts to understand and implement changes are not subject to enforcement action."
     },
     {
-      "id": "q3-4",
-      "type": "multiple-choice",
+      "id": "q4",
+      "questionNumber": 4,
+      "type": "MULTIPLE_CHOICE",
       "question": "When the CAA conducts a compliance audit, what is the most important thing you can show to demonstrate your compliance commitment?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Expensive safety equipment and modern aircraft",
-          "correct": false,
-          "feedback": "While good equipment is helpful, expensive hardware doesn't prove compliance. Auditors look for organized systems and documented practices, not equipment cost."
-        },
-        {
-          "id": "b",
-          "text": "Clear written procedures, maintenance records, flight logs, and training documentation",
-          "correct": true,
-          "feedback": "Correct! During audits, comprehensive documentation—procedures, records, training records—demonstrates that you take compliance seriously and can show ongoing compliance capability and practices."
-        },
-        {
-          "id": "c",
-          "text": "Verbal explanations of why you think your operations are safe",
-          "correct": false,
-          "feedback": "While being able to explain your approach is helpful, auditors require documented evidence. Verbal explanations alone cannot demonstrate systematic compliance practices."
-        },
-        {
-          "id": "d",
-          "text": "Insurance documents showing your liability coverage",
-          "correct": false,
-          "feedback": "Insurance documents are important but don't demonstrate compliance with regulatory requirements. Auditors are looking for evidence of your compliance systems and practices."
-        }
-      ]
+      "answers": [
+        { "id": "a", "text": "Expensive safety equipment and modern aircraft", "correct": false },
+        { "id": "b", "text": "Clear written procedures, maintenance records, flight logs, and training documentation", "correct": true },
+        { "id": "c", "text": "Verbal explanations of why you think your operations are safe", "correct": false },
+        { "id": "d", "text": "Insurance documents showing your liability coverage", "correct": false }
+      ],
+      "feedback": "During audits, comprehensive documentation—procedures, records, training records—demonstrates that you take compliance seriously and can show ongoing compliance capability and practices."
     }
   ]
 }

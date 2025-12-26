@@ -1,112 +1,58 @@
 {
+  "title": "Quiz: Parts 101 and 102",
+  "type": "quiz",
   "questions": [
     {
       "id": "q1",
+      "questionNumber": 1,
+      "type": "MULTIPLE_CHOICE",
       "question": "Which regulatory part applies to a hobbyist operating a small drone for recreational photography in a local park?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Part 101 - this is a non-commercial recreational operation",
-          "correct": true
-        },
-        {
-          "id": "b",
-          "text": "Part 102 - all drone operations require commercial certification",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Part 107 - research and development activities always require this part",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "No regulation applies to recreational drones under any circumstances",
-          "correct": false
-        }
+      "answers": [
+        { "id": "a", "text": "Part 101 - this is a non-commercial recreational operation", "correct": true },
+        { "id": "b", "text": "Part 102 - all drone operations require commercial certification", "correct": false },
+        { "id": "c", "text": "Part 107 - research and development activities always require this part", "correct": false },
+        { "id": "d", "text": "No regulation applies to recreational drones under any circumstances", "correct": false }
       ],
-      "explanation": "Part 101 governs non-commercial recreational and educational drone operations. Since the hobbyist is flying for personal enjoyment without any commercial benefit, Part 101 applies. The aircraft must still meet Part 101 specifications (typically under 25kg) and the operation must comply with airspace and safety requirements, but formal certification is not required."
+      "feedback": "Part 101 governs non-commercial recreational and educational drone operations. Since the hobbyist is flying for personal enjoyment, Part 101 applies."
     },
     {
       "id": "q2",
+      "questionNumber": 2,
+      "type": "MULTIPLE_CHOICE",
       "question": "What is the primary purpose of the new Transport Instrument framework introduced in the December 2025 Part 101 updates?",
-      "options": [
-        {
-          "id": "a",
-          "text": "To replace Part 102 with a simpler certification process",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "To enable the CAA to respond dynamically to sector developments without lengthy rule amendments",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "To eliminate all regulations for drone racing and education",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "To restrict drones to only visual line of sight operations",
-          "correct": false
-        }
+      "answers": [
+        { "id": "a", "text": "To replace Part 102 with a simpler certification process", "correct": false },
+        { "id": "b", "text": "To enable the CAA to respond dynamically to sector developments without lengthy rule amendments", "correct": true },
+        { "id": "c", "text": "To eliminate all regulations for drone racing and education", "correct": false },
+        { "id": "d", "text": "To restrict drones to only visual line of sight operations", "correct": false }
       ],
-      "explanation": "The new Transport Instrument framework allows the CAA to issue targeted guidance and modify operational parameters more quickly than formal regulatory amendments. This enables faster adaptation to emerging technologies, sector developments, and new operational concepts like drone racing or specialized educational programs without requiring full rule changes."
+      "feedback": "The Transport Instrument framework allows the CAA to issue targeted guidance and modify operational parameters more quickly than formal regulatory amendments."
     },
     {
       "id": "q3",
-      "question": "A commercial drone operator currently has a Part 102 certificate and flies drones for aerial photography. Which statement best reflects the reduced regulatory burden under the updated December 2025 rules?",
-      "options": [
-        {
-          "id": "a",
-          "text": "They no longer need any certification and can operate without restrictions",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "They face annual reviews instead of continuous approvals, and approved operators enjoy broader operational flexibility",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Part 102 certification has been eliminated entirely in the 2025 update",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "They must now recertify every month instead of annually",
-          "correct": false
-        }
+      "questionNumber": 3,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which statement best reflects the reduced regulatory burden under the updated December 2025 rules for Part 102 operators?",
+      "answers": [
+        { "id": "a", "text": "They no longer need any certification and can operate without restrictions", "correct": false },
+        { "id": "b", "text": "They face annual reviews instead of continuous approvals, and approved operators enjoy broader operational flexibility", "correct": true },
+        { "id": "c", "text": "Part 102 certification has been eliminated entirely in the 2025 update", "correct": false },
+        { "id": "d", "text": "They must now recertify every month instead of annually", "correct": false }
       ],
-      "explanation": "The updated Part 102 reduces regulatory burden for approved operators through: streamlined approval processes (4 weeks for standard operations), performance-based standards allowing flexible compliance, simplified documentation requirements, and periodic review model with automatic renewal for operators with good compliance history. Approved operators gain annual review instead of flight-by-flight approval."
+      "feedback": "The updated Part 102 reduces regulatory burden through streamlined approval processes, performance-based standards, and periodic reviews with automatic renewal."
     },
     {
       "id": "q4",
-      "question": "A farmer uses a drone to monitor crop health and provide the data to their insurance company for risk assessment. Which part applies and why?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Part 101 - crop monitoring is an educational activity",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Part 102 - the operation provides commercial benefit to the farmer's business even though the farmer doesn't directly receive payment",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Neither part applies because it's for personal agricultural purposes",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Part 107 - agricultural monitoring always requires research authorization",
-          "correct": false
-        }
+      "questionNumber": 4,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A farmer uses a drone to monitor crop health and provide the data to their insurance company. Which part applies?",
+      "answers": [
+        { "id": "a", "text": "Part 101 - crop monitoring is an educational activity", "correct": false },
+        { "id": "b", "text": "Part 102 - the operation provides commercial benefit to the farmer's business", "correct": true },
+        { "id": "c", "text": "Neither part applies because it's for personal agricultural purposes", "correct": false },
+        { "id": "d", "text": "Part 107 - agricultural monitoring always requires research authorization", "correct": false }
       ],
-      "explanation": "Part 102 is triggered by commercial benefit, not just direct revenue to the operator. In this case, the farmer gains commercial benefit through improved crop health monitoring and reduced insurance risk, even though the payment comes indirectly. The December 2025 updates clearly distinguish that any commercial benefit—direct or indirect—requires Part 102 certification, separating it distinctly from Part 101 recreational operations."
+      "feedback": "Part 102 is triggered by commercial benefit, not just direct revenue. The farmer gains commercial benefit through improved monitoring and reduced insurance risk."
     }
   ]
 }

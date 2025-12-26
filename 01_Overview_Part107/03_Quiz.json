@@ -1,112 +1,58 @@
 {
+  "title": "Quiz: Overview and Part 107",
+  "type": "quiz",
   "questions": [
     {
       "id": "q1",
+      "questionNumber": 1,
+      "type": "MULTIPLE_CHOICE",
       "question": "What is the primary purpose of the new Part 107 rule that became effective on 22 December 2025?",
-      "options": [
-        {
-          "id": "a",
-          "text": "To regulate commercial drone delivery services",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "To establish a streamlined regulatory pathway for research and development of emerging aviation technologies",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "To replace Parts 101 and 102 with a single unified rule",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "To prohibit testing of new aviation technologies in New Zealand",
-          "correct": false
-        }
+      "answers": [
+        { "id": "a", "text": "To regulate commercial drone delivery services", "correct": false },
+        { "id": "b", "text": "To establish a streamlined regulatory pathway for research and development of emerging aviation technologies", "correct": true },
+        { "id": "c", "text": "To replace Parts 101 and 102 with a single unified rule", "correct": false },
+        { "id": "d", "text": "To prohibit testing of new aviation technologies in New Zealand", "correct": false }
       ],
-      "explanation": "Part 107 was specifically introduced to enable rapid development and testing of emerging aviation technologies through a streamlined regulatory framework. It does not replace Parts 101 and 102, nor does it specifically regulate commercial services or prohibit testing. Instead, it creates an organization-level approval process for approved research entities."
+      "feedback": "Part 107 was specifically introduced to enable rapid development and testing of emerging aviation technologies through a streamlined regulatory framework."
     },
     {
       "id": "q2",
+      "questionNumber": 2,
+      "type": "MULTIPLE_CHOICE",
       "question": "Which of the following is a key advantage of Part 107's streamlined approach?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Organizations can operate without any safety oversight or regulations",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Each test iteration requires a separate individual approval from the CAA",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Approved organizations receive a single authorization covering multiple R&D activities and iterations",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Part 107 applies only to unmanned aircraft systems and excludes other aviation technologies",
-          "correct": false
-        }
+      "answers": [
+        { "id": "a", "text": "Organizations can operate without any safety oversight or regulations", "correct": false },
+        { "id": "b", "text": "Each test iteration requires a separate individual approval from the CAA", "correct": false },
+        { "id": "c", "text": "Approved organizations receive a single authorization covering multiple R&D activities and iterations", "correct": true },
+        { "id": "d", "text": "Part 107 applies only to unmanned aircraft systems and excludes other aviation technologies", "correct": false }
       ],
-      "explanation": "The streamlined approach of Part 107 moves away from per-activity approvals to organization-level authorization. This allows approved research organizations to conduct multiple tests and iterations under a single authorization, significantly reducing development timelines. Safety oversight still applies, and the framework is technology-agnostic, applying to all aviation systems."
+      "feedback": "The streamlined approach of Part 107 moves away from per-activity approvals to organization-level authorization, reducing development timelines."
     },
     {
       "id": "q3",
+      "questionNumber": 3,
+      "type": "MULTIPLE_CHOICE",
       "question": "What does it mean that Part 107 uses a 'technology-agnostic framework'?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The rule only applies to technologies that currently exist and are well-understood",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "The rule applies to all types of aviation systems without specifically limiting technologies to those listed in the regulation",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Part 107 prohibits the use of artificial intelligence in aviation research",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "The framework requires separate approval for each different technology type being tested",
-          "correct": false
-        }
+      "answers": [
+        { "id": "a", "text": "The rule only applies to technologies that currently exist and are well-understood", "correct": false },
+        { "id": "b", "text": "The rule applies to all types of aviation systems without specifically limiting technologies to those listed in the regulation", "correct": true },
+        { "id": "c", "text": "Part 107 prohibits the use of artificial intelligence in aviation research", "correct": false },
+        { "id": "d", "text": "The framework requires separate approval for each different technology type being tested", "correct": false }
       ],
-      "explanation": "Being technology-agnostic means Part 107 isn't limited to specific technologies. It applies equally to unmanned aircraft, advanced air mobility, electric propulsion, autonomous systems, and future innovations not yet imagined. This ensures the rule remains relevant as technology evolves without needing constant regulatory updates."
+      "feedback": "Being technology-agnostic means Part 107 isn't limited to specific technologies and applies equally to all aviation systems."
     },
     {
       "id": "q4",
+      "questionNumber": 4,
+      "type": "MULTIPLE_CHOICE",
       "question": "How does Part 107 relate to the existing Parts 101 and 102?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Part 107 completely replaces Parts 101 and 102, which are no longer in effect",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Part 107 creates a special R&D pathway, while Parts 101 and 102 continue to govern their respective operational areas",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Parts 101, 102, and 107 are identical rules with different names",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Part 107 only applies to organizations that do not operate under Parts 101 or 102",
-          "correct": false
-        }
+      "answers": [
+        { "id": "a", "text": "Part 107 completely replaces Parts 101 and 102, which are no longer in effect", "correct": false },
+        { "id": "b", "text": "Part 107 creates a special R&D pathway, while Parts 101 and 102 continue to govern their respective operational areas", "correct": true },
+        { "id": "c", "text": "Parts 101, 102, and 107 are identical rules with different names", "correct": false },
+        { "id": "d", "text": "Part 107 only applies to organizations that do not operate under Parts 101 or 102", "correct": false }
       ],
-      "explanation": "Part 107 is complementary to Parts 101 and 102, not a replacement. Part 101 continues to govern general drone operations, Part 102 covers non-research UAS operations, and Part 107 creates a dedicated pathway for R&D activities. Organizations may operate under multiple parts depending on their various activities."
+      "feedback": "Part 107 is complementary to Parts 101 and 102, not a replacement. Organizations may operate under multiple parts depending on their activities."
     }
   ]
 }

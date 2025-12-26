@@ -1,0 +1,101 @@
+{
+  "id": "nz-caa-rules-dec-2025",
+  "title": "NZ Civil Aviation Rules December 2025 Update",
+  "description": "Comprehensive overview of the December 2025 updates to New Zealand Civil Aviation Rules, covering the new Part 107 Research & Development framework, enhanced Part 101 and Part 102 requirements, and practical compliance guidance for drone operators.",
+  "version": "1.0",
+  "author": "DroneTrust",
+  "createdDate": "2025-12-26",
+  "estimatedDuration": "45 minutes",
+  "difficulty": "intermediate",
+  "tags": ["NZ CAA", "regulations", "compliance", "Part 101", "Part 102", "Part 107", "drone operations", "2025 updates"],
+  "modules": [
+    {
+      "id": "01",
+      "title": "Overview and Part 107 Introduction",
+      "description": "Learn what changed in December 2025 and understand the new Part 107 Research & Development framework for advanced aviation.",
+      "lessons": [
+        {
+          "id": "01",
+          "title": "What Changed in December 2025",
+          "file": "01_lesson_01.md",
+          "estimatedDuration": "8 minutes"
+        },
+        {
+          "id": "02",
+          "title": "Understanding Part 107: Research & Development Framework",
+          "file": "01_lesson_02.md",
+          "estimatedDuration": "12 minutes"
+        }
+      ],
+      "quiz": {
+        "file": "01_quiz.json",
+        "passingScore": 75
+      }
+    },
+    {
+      "id": "02",
+      "title": "Parts 101 and 102 Updates",
+      "description": "Explore the enhanced distinctions between Part 101 operating rules and Part 102 certification requirements, including the new Transport Instrument framework.",
+      "lessons": [
+        {
+          "id": "01",
+          "title": "Part 101: Unmanned Aircraft Operating Rules Updates",
+          "file": "02_lesson_01.md",
+          "estimatedDuration": "10 minutes"
+        },
+        {
+          "id": "02",
+          "title": "Part 102: Certification Requirements Clarified",
+          "file": "02_lesson_02.md",
+          "estimatedDuration": "10 minutes"
+        }
+      ],
+      "quiz": {
+        "file": "02_quiz.json",
+        "passingScore": 75
+      }
+    },
+    {
+      "id": "03",
+      "title": "Compliance and Transition",
+      "description": "Master the transition process with AC101-1 guidance and practical compliance steps to ensure your operations meet the new requirements.",
+      "lessons": [
+        {
+          "id": "01",
+          "title": "Transition Guidance and AC101-1",
+          "file": "03_lesson_01.md",
+          "estimatedDuration": "8 minutes"
+        },
+        {
+          "id": "02",
+          "title": "Practical Compliance Steps",
+          "file": "03_lesson_02.md",
+          "estimatedDuration": "12 minutes"
+        }
+      ],
+      "quiz": {
+        "file": "03_quiz.json",
+        "passingScore": 75
+      }
+    }
+  ],
+  "prerequisites": [
+    "Basic understanding of drone operations",
+    "Familiarity with NZ Civil Aviation Authority regulations"
+  ],
+  "learningObjectives": [
+    "Understand the three major rule updates effective December 22, 2025",
+    "Explain the purpose and benefits of the new Part 107 Research & Development framework",
+    "Distinguish between Part 101 and Part 102 operational requirements",
+    "Navigate the transition period using Advisory Circular AC101-1",
+    "Implement practical compliance steps for your drone operations",
+    "Prepare for future regulatory developments in advanced aviation"
+  ],
+  "targetAudience": [
+    "Commercial drone operators",
+    "Recreational drone pilots",
+    "Aviation research organizations",
+    "Drone technology companies",
+    "Aviation compliance officers"
+  ]
+}
